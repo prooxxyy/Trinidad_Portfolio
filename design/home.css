@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+header {
+    background-color: #1e201e;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo {
+    color: #ff6500;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+.logo:hover {
+    color: #ff6500;
+    text-shadow: 0 0 25px #ff6500,
+                 0 0 50px #ff6500;
+                 transform: scale(1.1);
+}
+.Portfolio {
+    font: 600;
+    font-size: 20px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+a {
+    text-decoration: none;
+    padding: 15px;
+    color: #ff6500;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+a:hover {
+    color: #ff6500;
+    text-shadow: 0 0 25px #ff6500,
+                 0 0 50px #ff6500;
+                 transform: scale(1.1);
+}
+main {
+    background-color: #1e201e;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+img {
+    border: #ff6500 10px solid;
+    border-radius: 100%;
+    width: 90%;
+    transition: 0.3s ease;
+}
+img:hover {
+    filter: drop-shadow(10px 10px 20px #ff6500);
+    transform: scale(1.1);
+}
+.introduction {
+    line-height: 60px;
+    font-size: 30px;
+    cursor: default;
+}
+h6 {
+    color: #ffeead;
+}
+h5 {
+    color: #ff6500;
+    transition: 0.3s ease;
+}
+h5:hover {
+    color: #ff6500;
+    text-shadow: 0 0 25px #ff6500,
+                 0 0 50px #ff6500;
+}
+h2 {
+    color: #ffeead;
+}
+button {
+    background-color: #ff6500;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    color: #ffeead;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    padding: 25px;
+    margin-top: 30px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+button:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ff6500,
+    0 0 25px #ff6500, 0 0 50px #ff6500,
+    0 0px 100px #ff6500, 0 0 200px #ff6500;
+    transform: scale(1.1);
+}
+button:active {
+    scale: 0.8;
+    color: white;
+}
