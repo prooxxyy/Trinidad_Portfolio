@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: "Montserrat", serif;
 }
+::selection {
+    background-color: whitesmoke;
+    color:#ff6500;
+}
 header {
     background-color: #1e201e;
     height: 60px;
@@ -50,9 +54,7 @@ a:hover {
                  0 0 50px #ff6500;
                  transform: scale(1.1);
 }
-a:active {
-    color: #1e201e;
-}
+
 main {
     background-color: #1e201e;
     height: 100vh;
