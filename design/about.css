@@ -1,0 +1,60 @@
+.section-about {
+    height: 100vh;
+    width: 100%;
+    background-color: #161716;
+
+}
+.container-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-about {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+.left-container {
+    width: 400px;
+}
+.me {
+    width: 500px;
+    box-shadow: -12px -12px #ff6500 ;
+}
+.right-container {
+    width: 550px;
+    font-size: 20px;
+    line-height: 60px;
+}
+.head {
+    color: #ff6500;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.about-me {
+    color: #ffeead;
+}
+.button-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.hire-me {
+    background-color: #ff6500;
+    border:none;
+    color: #ffeead;
+    padding: 25px;
+    width: 45%;
+    font-size: 30px;
+    font-weight: 700;
+}
+.download {
+    background-color: #1e201e;
+    border: #ffeead solid;
+    color: #ffeead;
+    padding: 25px;
+    width: 45%;
+    font-size: 30px;
+    font-weight: 700;
+}

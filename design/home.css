@@ -11,18 +11,19 @@
 }
 header {
     background-color: #1e201e;
-    height: 60px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 .logo {
     color: #ff6500;
-    width: 13%;
+    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.3s ease;
+    cursor: default;
 }
 .logo:hover {
     color: #ff6500;
@@ -32,20 +33,20 @@ header {
 }
 .Portfolio {
     font: 600;
-    font-size: 20px;
+    font-size: 25px;
 }
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: 45%;
 }
 a {
     text-decoration: none;
-    padding: 15px;
+    padding: 25px;
     color: #ff6500;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     transition: 0.3s ease;
 }
 a:hover {
@@ -68,13 +69,13 @@ main {
     align-items: center;
     height: 80%;
 }
-img {
+.my-picture {
     border: #ff6500 10px solid;
     border-radius: 100%;
     width: 90%;
     transition: 0.3s ease;
 }
-img:hover {
+.my-picture:hover {
     filter: drop-shadow(10px 10px 20px #ff6500);
     transform: scale(1.1);
 }
@@ -85,9 +86,11 @@ img:hover {
 }
 h6 {
     color: #ffeead;
+    font-size: 40px;
 }
 h5 {
     color: #ff6500;
+    font-size: 30px;
     transition: 0.3s ease;
 }
 h5:hover {
@@ -95,10 +98,10 @@ h5:hover {
     text-shadow: 0 0 25px #ff6500,
                  0 0 50px #ff6500;
 }
-h2 {
+.freelance {
     color: #ffeead;
 }
-button {
+.resume {
     background-color: #ff6500;
     display: flex;
     justify-content: center;
@@ -112,14 +115,14 @@ button {
     transition: 0.3s ease;
     cursor: pointer;
 }
-button:hover {
+.resume:hover {
     border-radius: 10px;
     box-shadow: 0 0 5px #ff6500,
     0 0 25px #ff6500, 0 0 50px #ff6500,
     0 0px 100px #ff6500, 0 0 200px #ff6500;
     transform: scale(1.1);
 }
-button:active {
+.resume:active {
     scale: 0.8;
     color: white;
 }
