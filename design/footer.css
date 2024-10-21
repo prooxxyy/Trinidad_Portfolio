@@ -1,0 +1,40 @@
+footer {
+    height: 30vh;
+    width: 100%;
+    background-image: url(image/backgroundimg.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.contact {
+    display: grid;
+    place-items: center;
+    padding-top: 20px;
+}
+.contact-me {
+    font-size: 30px;
+    color: #ffeead;
+}
+hr {
+    margin-top: 8px;
+    border: 2px solid #ffeead;;
+    width: 4.5%;
+}
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-logo {
+    width: 60px;
+}
+.facebook-logo {
+    width: 40px;
+}
+
+.instagram-logo {
+    width: 40px;
+}
+.github-logo {
+    width: 40px;
+}

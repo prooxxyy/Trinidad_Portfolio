@@ -17,6 +17,18 @@ header {
     width: 100%;
 }
 .logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+.logo-prox {
+    margin-top: 7px;
+}
+.Portfolio {
+    font: 600;
+    font-size: 25px;
     color: #ff6500;
     width: 25%;
     display: flex;
@@ -25,21 +37,23 @@ header {
     transition: 0.3s ease;
     cursor: default;
 }
-.logo:hover {
+.Portfolio:hover {
     color: #ff6500;
     text-shadow: 0 0 25px #ff6500,
                  0 0 50px #ff6500;
                  transform: scale(1.1);
 }
-.Portfolio {
-    font: 600;
-    font-size: 25px;
+.logo-prox {
+    width: 25%;
+}
+.prox {
+    width: 60px;
 }
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45%;
+    width: 50%;
 }
 a {
     text-decoration: none;
@@ -59,6 +73,7 @@ a:hover {
 main {
     background-color: #1e201e;
     height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

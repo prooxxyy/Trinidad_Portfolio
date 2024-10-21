@@ -1,4 +1,72 @@
 .section-skills {
     height: 100vh;
-    background-color:#161716;
+    width: 100%;
+    background-color: #161716;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    color: #ff6500;
+    padding-top: 3%;
+    font-size: 35px;
+    font-weight: 700;
+}
+.layers-container {
+    height: 40%;
+}
+.first-layer {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-layer {
+    color: #ff6500;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.first-box {
+    background-color: #3c3d37;
+    height: 130%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.text {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+.text:hover {
+    transform: scale(1.1);
+}
+.second-layer {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-layer {
+    color: #ff6500;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+.second-box {
+    background-color: #3c3d37;
+    height: 130%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.text-two {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+.text-two:hover {
+    transform: scale(1.1);
 }
