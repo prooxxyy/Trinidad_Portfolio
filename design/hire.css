@@ -1,17 +1,57 @@
 .HIRE {
     height: 40vh;
-    width: 50%;
-    background-color: #3c3d37;
+    width: 100%;
+    background-image: url(image/backgroundimg.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat:no-repeat;
 }
-.hire-container {
-    font-size: 100%;
+.hire-me-container {
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
-.project {
+.hire-contaier {
+    display: grid;
+    place-items: center;
+    width: 90%;
+}
+.Avail {
+    font-size: 60px;
+    font-weight: 700;
+    width: 60%;
     color: #ff6500;
-    width: 70%;
-    font-size: 40px;
+}
+.tell-me {
+    padding-top: 10px;
+    font-size: 25px;
+    width: 60%;
+    color:#ffeead;
+}
+.button-hire {
+    padding-right: 300px;
+}
+.hire-button{
+    background-color: #ff6500;
+    color:#ffeead;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 40px;
+    width: 200%;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.hire-button:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ff6500,
+    0 0 25px #ff6500, 0 0 50px #ff6500,
+    0 0px 100px #ff6500, 0 0 200px #ff6500;
+    transform: scale(1.1);
+}
+.hire-button:active {
+    opacity: 0.9;
 }
