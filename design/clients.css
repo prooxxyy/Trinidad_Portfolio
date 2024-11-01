@@ -5,6 +5,10 @@
 }
 .title-client {
     padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .Happy-client {
     color: #ff6500;
@@ -27,12 +31,18 @@
     background-color: #464745;
     height: 70%;
     width: 45%;
+    transition: 0.3s ease;
+}
+.right-client:hover {
+    border-radius: 15px;
+    transform: scale(1.1);
 }
 .client-feedback {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50% ;
+    height: 50%;
+    transition: 0.3s ease;
 }
 .client-image{
     height: 55%;
@@ -52,6 +62,10 @@
     font-size: 40px;
     color: #ffeead;
     letter-spacing: 2px;
+}
+.cname2 {
+    font-size: 40px;
+    color:  #ffeead;
 }
 .client-job {
     font-size: 25px;

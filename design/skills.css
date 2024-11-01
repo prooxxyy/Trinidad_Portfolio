@@ -31,6 +31,11 @@
     height: 120%;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+}
+.first-box:hover {
+    box-shadow: 0 0 10px 5px #ff6500;
+    color: #ffeead;
 }
 .text {
     width: 15%;
@@ -59,6 +64,11 @@
     height: 130%;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+}
+.second-box:hover {
+    box-shadow: 0 0 10px 5px #ff6500;
+    color: #ffeead;
 }
 .text-two {
     width: 15%;

@@ -7,34 +7,113 @@ footer {
     background-size: cover;
     background-repeat:no-repeat;
 }
-.contact {
-    display: grid;
-    place-items: center;
-    padding-top: 20px;
-}
-.contact-me {
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 30%;
+    width: 100%;
     font-size: 30px;
+}
+.contact-h2 {
     color: #ffeead;
+    font-size: 30px;
 }
-hr {
-    margin-top: 8px;
-    border: 2px solid #ffeead;;
-    width: 4.5%;
+.hr-contact {
+    width: 100px;
+    border: 2px solid #ffeead;
 }
-.icon {
+.footer-container {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon-container {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.img-logo {
+    width: 70px;
+}
+.img-icon {
+    margin-left: 20%;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img-fb {
+    width: 40px;
+}
+.img-inst {
+    width: 40px;
+}
+.img-git {
+    width: 40px;
+}
+.inp-bttn-container {
+    width: 25%;
     display: flex;
     justify-content: space-evenly;
 }
-.footer-logo {
-    width: 60px;
+.yname {
+    padding: 4%;
+    border-radius: 5px;
+    border: 3px solid #ff6500;
+    color: #464745;
 }
-.facebook-logo {
-    width: 40px;
+.message-bttn {
+    padding: 4%;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff6500;
+    color: #ffeead;
+    font-weight: 600;
 }
-
-.instagram-logo {
-    width: 40px;
+.bttm-ft {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.github-logo {
-    width: 40px;
+.ft-container {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.loc-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.pin {
+    width: 35px;
+}
+.pin1 {
+    font-size: 15px;
+    color: #ffeead;
+}
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 8%;
+}
+.call-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
