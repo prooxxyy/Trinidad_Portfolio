@@ -25,6 +25,7 @@ header {
 }
 .logo-prox {
     margin-top: 7px;
+    width: 25%;
 }
 .Portfolio {
     font: 600;
@@ -43,9 +44,7 @@ header {
                  0 0 50px #ff6500;
                  transform: scale(1.1);
 }
-.logo-prox {
-    width: 25%;
-}
+
 .prox {
     width: 60px;
 }
@@ -140,4 +139,62 @@ h5:hover {
 .resume:active {
     scale: 0.8;
     color: white;
+}
+@media (max-width: 600px)
+{
+    header {
+        background-color: #1e201e;
+    }
+    .Portfolio {
+        font-size: 18px;
+        width: 25%;
+    }
+    .logo-prox {
+        width: 60%;
+    }
+    .prox {
+        width: 50px;
+    }
+    nav {
+        width: 67%;
+    }
+    a {
+        padding: 10px;
+        font-size: 18px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 80%;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .my-picture {
+        width: 50%;
+    }
+    .introduction {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    h6 {
+        color: #ffeead;
+        font-size: 25px;
+    }
+    h5 {
+        color: #ff6500;
+        font-size: 20px;
+        transition: 0.3s ease;
+    }
 }
