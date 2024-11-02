@@ -58,12 +58,15 @@
     width: 45%;
     font-size: 30px;
     font-weight: 700;
-    transition: 0.2s ease;
+    transition: 0.3s ease;
     cursor: pointer;
 }
 .hire-me:hover {
     background-color: #1e201e;
     border: #ffeead solid;
+}
+.hire-me:active{
+    opacity: 0.8;
 }
 .download {
     background-color: #1e201e;
@@ -74,5 +77,13 @@
     width: 50%;
     font-size: 30px;
     font-weight: 700;
+    cursor: pointer;
     transition: 0.3s ease;
+}
+.download:hover {
+    background-color: #ff6500;
+}
+.download:active {
+    background-color: #ff6600e1;
+    color: #ffefadba;
 }
