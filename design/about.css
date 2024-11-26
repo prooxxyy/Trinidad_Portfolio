@@ -182,7 +182,7 @@
         justify-content: center;
     }
     .about-me {
-        font-size: 20px;
+        font-size: 25px;
     }
     .button-container {
         margin-top: 30px;
@@ -194,6 +194,63 @@
     .hire-me {
         padding: 15px;
         width: 70%;
+        font-size: 20px;
+    }
+    .download {
+        padding: 15px;
+        width: 60%;
+        font-size: 20px;
+    }
+}
+@media (min-width:500px) and (max-width: 768px) {
+    .container-about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .left-container {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .me {
+        width: 250px;
+        box-shadow: -10px 0px #ff6500;
+    }
+    .right-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .head {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .about-me {
+        text-align: center;
+        font-size: 15px;
+        color: #ffeead;
+    }
+    .button-container {
+        margin-top: 0;
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        row-gap: 1px;
+    }
+    .hire-me {
+        padding: 15px;
+        width: 60%;
         font-size: 20px;
     }
     .download {

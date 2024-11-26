@@ -151,3 +151,47 @@
         font-size: 10px;
     }
 }
+@media (min-width:500px) and (max-width: 768px) {
+    .blog-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        flex-direction: column;
+        height: 90%;
+        width: 100%;
+    }
+    .blog1 {
+        background-color: #1e201e;
+        height: 50%;
+        width: 95%;
+    }
+    .img1-about {
+        font-size: 10px;
+        width: 100%;
+    }
+    .how-create {
+        font-size: 10px;
+    }
+    .img1-desc {
+        height: 50%;
+        line-height: 15px;
+    }
+    .blog-image {
+        height: 50%;
+    }
+    .business1 {
+        width: 30%;
+        border-radius: 3%;
+    }
+    .read-button {
+        margin-top: 0;
+        padding: 5px;
+        width: 30%;
+        font-size: 10px;
+    }
+    .myblog {
+        font-size: 25px;
+        padding-top: 0;
+    }
+}

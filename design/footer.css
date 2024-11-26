@@ -261,3 +261,97 @@ footer {
         border: 2px solid #ffeead;
     }
 }
+@media (min-width:500px) and (max-width: 768px) {
+
+    .contact-h2 {
+        color: #ffeead;
+        font-size: 20px;
+    }
+    .contact-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        height: 30%;
+        width: 100%;
+        font-size: 30px;
+    }
+    .icon-container {
+        padding-top: 0;
+        display: flex;
+        gap: 100px;
+        height: 20%;
+        width: 100%;
+    }
+    .img-fb {
+        width: 25px;
+    }
+    .img-inst {
+        width: 25px;
+    }
+    .img-git {
+        width: 25px;
+    }
+    .inp-bttn-container {
+        width: 30%;    
+        display: flex;
+        gap: 10px;
+    }
+    .yname {
+        padding: 10px;
+        width: 100%;
+        font-size: 8.5px;
+    }
+    .message-bttn {
+        padding: 1px;
+        border-radius: 5px;
+        font-size: 9px;
+        width: 100%;
+    }
+    .img-logo {
+        width: 35px;
+    }
+    .img-icon {
+        display: flex;
+        justify-content: center;
+        width: 1%;
+        gap: 5px;
+    }
+    .ft-container {
+        height: 50%;
+        width: 100%;
+        padding-top: 0;
+    }
+    .home-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-right: 0;
+    }
+    .loc-container {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .pin {
+        width: 15px;
+    }
+    .pin1 {
+        font-size: 9px;
+    }
+    .contact-h2 {
+        color: #ffeead;
+        font-size: 20px;
+    }
+    .hr-contact {
+        width: 80px;
+        border: 2px solid #ffeead;
+    }
+    .call-container {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+}

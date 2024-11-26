@@ -93,3 +93,33 @@
         width: 40%;
     }
 }
+@media (min-width:500px) and (max-width: 768px) {
+    .Avail {
+        font-size: 30px;
+        width: 100%;
+    }
+    .tell-me {
+        font-size: 30px;
+        width: 100%;
+        color:#ffeead;
+    }
+    .hire-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .hire-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .hire-button{
+        font-size: 20px;
+        padding: 30px;
+        width: 40%;
+    }
+}
