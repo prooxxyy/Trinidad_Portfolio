@@ -348,5 +348,8 @@ h5:hover {
         width: 40%;
         margin-top: 0;
     }
-    
+    .freelance {
+        color: #ffeead;
+        font-size: 30px;
+    }
 }
