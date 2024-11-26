@@ -16,18 +16,18 @@
     <header>
       <div class="logo">
         <div class="logo-prox">
-          <img class="prox" src="picture/logo.png" alt="" />
+          <img class="prox" src="picture/logo.png" alt="logo" />
         </div>
         <h5 class="Portfolio">PORTFOLIO</h5>
       </div>
       <nav>
-        <a href="">HOME</a>
-        <a href="">ABOUT</a>
-        <a href="">CONTACT</a>
-        <a href="">MY BLOG</a>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
+        <a href="#myblog">MY BLOG</a>
       </nav>
     </header>
-    <main>
+    <main id="home">
       <div class="container">
         <div class="image-container">
           <img
@@ -44,7 +44,7 @@
         </div>
       </div>
     </main>
-    <section class="section-about">
+    <section id="about" class="section-about">
       <div class="container-about">
         <div class="left-container">
           <img class="me" src="picture/me.png" alt="Rhoswel Trinidad" />
@@ -64,27 +64,27 @@
       </div>
     </section>
     <section class="section-skills">
-      <h2 class="skills">SKILLS</h2>
-      <div class="layers-container">
-        <div class="first-layer">
-          <div class="first-box text">WEB DESIGN</div>
-          <div class="first-box text">WEB DEVELOPMENT</div>
-          <div class="first-box text">WEB RESEARCHER</div>
-        </div>
-        <div class="second-layer">
-          <div class="second-box text-two">MARKETING</div>
-          <div class="second-box text-two">PHOTO DESIGN</div>
-          <div class="second-box text-two">UI/UX DESIGNER</div>
-        </div>
+      <div class="layers">
+        <h2 class="skills">SKILLS</h2>
+          <div class="firstlayer-container">
+            <div class="first-box">WEB DESIGN</div>
+            <div class="first-box">WEB DEVELOPMENT</div>
+            <div class="first-box">WEB RESEARCHER</div>
+          </div>
+          <div class="secondlayer-container">
+            <div class="sec-box">MARKETING</div>
+            <div class="sec-box">PHOTO DESIGN</div>
+            <div class="sec-box">UI/UX DESGIN</div>
+          </div>
       </div>
     </section>
     <section class="HIRE">
       <div class="hire-me-container">
-        <div class="hire-contaier">
+        <div class="hire-container">
+          <div class="hire-des">
           <h1 class="Avail">I&apos;m Available for Freelancer Project !</h1>
           <p class="tell-me">Tell me about your story and project brief</p>
-        </div>
-        <div class="button-hire">
+          </div>
           <button class="hire-button">HIRE ME</button>
         </div>
       </div>
@@ -92,7 +92,6 @@
     <section class="Clients">
       <div class="title-client">
         <h1 class="Happy-client">Happy Clients Says</h1>
-        <hr />
       </div>
       <div class="client-container">
         <div class="right-client">
@@ -135,10 +134,9 @@
         </div>
       </div>
     </section>
-    <section class="blog">
+    <section id="myblog" class="blog">
       <div class="myblog">
         <h2>MY BLOG</h2>
-        <hr />
       </div>
       <div class="blog-container">
         <div class="blog1">
@@ -196,7 +194,7 @@
         </div>
       </div>
     </section>
-    <footer>
+    <footer id="contact">
       <div class="contact-container">
         <h2 class="contact-h2">CONTACT</h2>
         <hr class="hr-contact" />

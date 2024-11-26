@@ -1,11 +1,12 @@
 footer {
-    height: 30vh;
+    height: fit-content;
     width: 100%;
     background-image: url(image/backgroundimg.png);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat:no-repeat;
+    scroll-behavior: smooth;
 }
 .contact-container {
     display: flex;
@@ -40,9 +41,10 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 120px;
+    padding-top: 10px;
 }
 .img-logo {
-    width: 70px;
+    width: 55px;
 }
 .img-icon {
     margin-left: 20%;
@@ -100,9 +102,11 @@ footer {
 }
 .ft-container {
     height: 100%;
-    width: 90%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
 }
 .loc-container {
     display: flex;
@@ -127,4 +131,133 @@ footer {
     display: flex;
     align-items: center;
     gap: 15px;
+}
+@media (min-width:1025px) and (max-width: 1440px) {
+    .contact-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        height: 30%;
+        width: 100%;
+        font-size: 30px;
+    }
+    .footer-container {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .icon-container {
+        height: 60%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+    }
+    .inp-bttn-container {
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .yname {
+        padding: 4%;
+        font-size: 12px;
+    }
+    .message-bttn {
+        padding: 1%;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+    .ft-container {
+        width: 95%;
+    }
+    .pin1 {
+        font-size: 12px;
+    }
+    .img-logo {
+        width: 50px;
+    }
+}
+@media (min-width:769px) and (max-width: 1024px) {
+    .contact-container {
+        height: 30%;
+        width: 100%;
+    }
+    .icon-container {
+        padding-top: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+    }
+    .img-fb {
+        width: 35px;
+    }
+    .img-inst {
+        width: 35px;
+    }
+    .img-git {
+        width: 35px;
+    }
+    .inp-bttn-container {
+        width: 100%;    
+        display: flex;
+        gap: 10px;
+    }
+    .yname {
+        padding: 15px;
+        width: 60%;
+        font-size: 10px;
+    }
+    .message-bttn {
+        padding: 1px;
+        border-radius: 5px;
+        font-size: 9px;
+        width: 50%;
+    }
+    .img-logo {
+        width: 35px;
+    }
+    .img-icon {
+        width: 30%;
+        gap: 10px;
+    }
+    .ft-container {
+        height: 100%;
+        width: 95%;
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .home-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-right: 0;
+    }
+    .loc-container {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .pin {
+        width: 25px;
+    }
+    .pin1 {
+        font-size: 10px;
+    }
+    .contact-h2 {
+        color: #ffeead;
+        font-size: 20px;
+    }
+    .hr-contact {
+        width: 80px;
+        border: 2px solid #ffeead;
+    }
 }

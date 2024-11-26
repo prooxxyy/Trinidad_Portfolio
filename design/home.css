@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", serif;
+    scroll-behavior: smooth;
 }
 ::selection {
     background-color: whitesmoke;
@@ -27,6 +28,9 @@ header {
     margin-top: 7px;
     width: 25%;
 }
+.prox {
+    width: 60px;
+}
 .Portfolio {
     font: 600;
     font-size: 25px;
@@ -43,10 +47,6 @@ header {
     text-shadow: 0 0 25px #ff6500,
                  0 0 50px #ff6500;
                  transform: scale(1.1);
-}
-
-.prox {
-    width: 60px;
 }
 nav {
     display: flex;
@@ -68,7 +68,6 @@ a:hover {
                  0 0 50px #ff6500;
                  transform: scale(1.1);
 }
-
 main {
     background-color: #1e201e;
     height: 100vh;
@@ -81,7 +80,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80%;
+    height: 100%;
+    width: 100%;
 }
 .my-picture {
     border: #ff6500 10px solid;
@@ -140,68 +140,154 @@ h5:hover {
     scale: 0.8;
     color: white;
 }
-@media (max-width: 500px)
-{
+
+@media (min-width:1025px) and (max-width: 1440px) {
     header {
         background-color: #1e201e;
+        height: 90px;
+        width: 100%;
     }
-    .Portfolio {
-        font-size: 15px;
-        width: 25%;
-    }
-    .logo-prox {
-        width: 60%;
-    }
-    .prox {
-        width: 40px;
-    }
-    nav {
-        width: 65%;
-    }
-    a {
-        padding: 5px;
-        font-size: 16px;
-    }
-    .container {
+    .logo {
+        width: 45%;
         display: flex;
         justify-content: center;
-        flex-direction: column;
         align-items: center;
+    }
+    .logo-prox {
+        width: 30%;
+    }
+    .prox {
+        width: 55%;
+    }
+    .Portfolio {
+        font-size: 20px;
+        width: 20%;
+    }
+    nav {
+        width: 80%;
+    }
+    a {
+        padding: 25px;
+        font-size: 20px;
+    }
+    main {
+        height: 100vh;
         width: 100%;
-        height: 80%;
+    }
+    .container {
+        flex-direction: column;
+        gap: 20px;
+        height: 100%;
+        width: 100%;
+    }
+    .my-picture {
+        border: #ff6500 10px solid;
+        border-radius: 100%;
+        width: 65%;
+        transition: 0.3s ease;
     }
     .image-container {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .my-picture {
+    .introduction {
+        line-height: 50px;
+        font-size: 25px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 45%;
+    }
+    h6 {
+        font-size: 50px;
+    }
+    h5 {
+        font-size: 40px;
+    }
+    .freelance {
+        color: #ffeead;
+        font-size: 50px;
+    }
+    .resume {
+        font-size: 30px;
+        padding: 25px;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+    header {
+        background-color:#1e201e;
+        height: 90px;
+        width: 100%;
+    }
+    .logo {
         width: 50%;
     }
-    .introduction {
-        height: 70%;
+    .logo-prox {
+        width: 40%;
+    }
+    .prox {
+        width: 45%;
+    }
+    .Portfolio {
+        font-size: 20px;
+        width: 45%;
+    }
+    nav {
         width: 100%;
+    }
+    a {
+        padding: 20px;
+        font-size: 20px;
+    }
+    main {
+        height: 100vh;
+        width: 110%;
+    }
+    .container {
+        flex-direction: column;
+        gap: 20px;
+        height: 100%;
+        width: 100%;
+    }
+    .my-picture {
+        width: 55%;
+    }
+    .image-container {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 55%;
+    }
+    .introduction {
+        line-height: 60px;
+        font-size: 25px;
+        text-align: center;
+        display: flex;
         flex-direction: column;
-        line-height: 40px;
-        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+        height: 50%;
     }
     h6 {
-        color: #ffeead;
-        font-size: 25px;
+        font-size: 30px;
     }
     h5 {
-        color: #ff6500;
-        font-size: 23px;
-        transition: 0.3s ease;
+        font-size: 30px;
     }
     .freelance {
+        color: #ffeead;
         font-size: 30px;
     }
     .resume {
         font-size: 25px;
         padding: 20px;
+        width: 40%;
     }
 }
+

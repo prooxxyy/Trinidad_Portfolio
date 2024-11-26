@@ -2,81 +2,137 @@
     height: 100vh;
     width: 100%;
     background-color: #161716;
-}
-.skills {
-    display: flex;
-    justify-content: center;
-    color: #ff6500;
-    padding-top: 3%;
-    font-size: 35px;
-    font-weight: 700;
-}
-.layers-container {
-    height: 40%;
-}
-.first-layer {
-    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.first-layer {
-    color: #ff6500;
+.layers {
+    height: 100%;
+    width: 85%;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    cursor: pointer;
+}
+.skills {
+    color: #ff6500;
+    font-size: 40px;
+}
+.firstlayer-container {
+    height: 40%;
+    width: 90%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:120px;
 }
 .first-box {
     background-color: #3c3d37;
-    height: 120%;
+    color: #ffeead;
     font-size: 20px;
-    font-weight: 600;
-    cursor: pointer;
+    font-weight: 700;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s ease;
 }
 .first-box:hover {
-    box-shadow: 0 0 10px 5px #ff6500;
-    color: #ffeead;
-}
-.text {
-    width: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s ease;
-}
-.text:hover {
-    transform: scale(1.1);
-}
-.second-layer {
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.second-layer {
     color: #ff6500;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 10%;
+    text-shadow: 0 0 25px #ff6500,
+                 0 0 50px #ff6500;
+                 transform: scale(0.9);;
+    background-color: #ffeead;
 }
-.second-box {
-    background-color: #3c3d37;
-    height: 130%;
-    font-size: 20px;
-    font-weight: 600;
-    cursor: pointer;
-}
-.second-box:hover {
-    box-shadow: 0 0 10px 5px #ff6500;
-    color: #ffeead;
-}
-.text-two {
-    width: 15%;
+.secondlayer-container {
+    height: 40%;
+    width: 90%;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap:120px;
+}
+.sec-box {
+    background-color: #3c3d37;
+    font-size: 20px;
+    color: #ffeead;
+    font-weight: 700;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     transition: 0.3s ease;
 }
-.text-two:hover {
-    transform: scale(1.1);
+.sec-box:hover {
+    color: #ff6500;
+    text-shadow: 0 0 25px #ff6500,
+                 0 0 50px #ff6500;
+                 transform: scale(0.9);;
+    background-color: #ffeead;
+}
+@media (min-width:1025px) and (max-width: 1440px) {
+    .layers {
+        row-gap: 20px;
+        width: 100%;
+    }
+    .firstlayer-container {
+        height: 20%;
+        width: 90%;
+        gap:100px;
+        letter-spacing: 2px;
+    }
+    .first-box {
+        font-size: 20px;
+        height: 100%;
+        width: 50%;
+    }
+    .secondlayer-container {
+        height: 20%;
+        width: 90%;
+        gap:100px;
+        letter-spacing: 2px;
+    }
+    .sec-box {
+        font-size: 20px;
+        height: 100%;
+        width: 50%;
+    }
+}
+@media (min-width:769px) and (max-width: 1024px) {
+    .section-skills {
+        width: 100%;
+    }
+    .layers {
+        row-gap: 20px;
+        width: 100%;
+    }
+    .firstlayer-container {
+        height: 20%;
+        width: 90%;
+        gap:100px;
+    }
+    .first-box {
+        font-size: 15px;
+        height: 100%;
+        width: 50%;
+    }
+    .secondlayer-container {
+        height: 20%;
+        width: 90%;
+        gap:100px;
+        letter-spacing: 2px;
+    }
+    .sec-box {
+        font-size: 15px;
+        height: 100%;
+        width: 50%;
+    }
 }

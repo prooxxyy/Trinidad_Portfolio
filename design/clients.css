@@ -2,6 +2,10 @@
     height: 100vh;
     width: 100%;
     background-color: #1e201e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .title-client {
     padding-top: 30px;
@@ -17,7 +21,8 @@
     font-size: 50px;  
 }
 .client-container {
-    height: 85%;
+    height: 80%;
+    width: 80%;
     display: flex;
     justify-content: center;
 }
@@ -45,26 +50,24 @@
     transition: 0.3s ease;
 }
 .client-image{
-    height: 55%;
-    width: 120px;
+    width: 100px;
     border-radius: 100%;
 }
 .client1-name {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 100px;
-    width: 50%;
+    flex-wrap: wrap;
+    width: 60%;
     line-height: 45px;
 }
 .cname1 {
-    font-size: 40px;
+    font-size: 30px;
     color: #ffeead;
     letter-spacing: 2px;
 }
 .cname2 {
-    font-size: 40px;
+    font-size: 30px;
     color:  #ffeead;
 }
 .client-job {
@@ -80,17 +83,95 @@
     align-items: center;
 }
 .client-comment {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 40px;
     text-align: center;
     color: #ffeead;
 }
-.left-client {
-    border: solid 2px white;
-    height: 70%;
-    width: 45%;
-}
 .client-two {
     width: 90px;
     border-radius: 100%;
+}
+@media (min-width:1025px) and (max-width: 1440px) {
+    .client-container {
+        height: 80%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .right-client {
+        border: solid 5px #ff6500;
+        background-color: #464745;
+        height: 70%;
+        width: 45%;
+        transition: 0.3s ease;
+    }
+    .client-feedback {
+        height: 40%;
+    }
+    .client-image{
+        width: 85px;
+    }
+    .client1-name {
+        text-align: center;
+        width: 70%;
+    }
+    .client-feedback2 {
+        height: 60%;
+        width: 100%;
+    }
+    .client-comment {
+        font-size: 19px;
+        line-height: 30px;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+    .client-container {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .client-feedback {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40%;
+        width: 100%;
+    }
+    .client-image{
+        width: 80px;
+    }
+    .client1-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 60%;
+        line-height: 35px;
+    }
+    .cname1 {
+        font-size: 20px;
+    }
+    .cname2 {
+        font-size: 20px;
+        color:  #ffeead;
+    }
+    .client-job {
+        font-size: 15px;
+    }
+    .client-feedback2 {
+        height: 35%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .client-comment {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #ffeead;
+    }
 }

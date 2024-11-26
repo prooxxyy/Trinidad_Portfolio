@@ -14,20 +14,30 @@
     justify-content: center;
     align-items: center;
 }
-.hire-contaier {
-    display: grid;
-    place-items: center;
+.hire-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 90%;
+    height: 70%;
+}
+.hire-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 90%;
 }
 .Avail {
-    font-size: 60px;
+    font-size: 35px;
     font-weight: 700;
     width: 60%;
     color: #ff6500;
 }
 .tell-me {
     padding-top: 10px;
-    font-size: 25px;
+    font-size: 30px;
     width: 60%;
     color:#ffeead;
 }
@@ -40,7 +50,7 @@
     font-size: 30px;
     font-weight: 600;
     padding: 40px;
-    width: 200%;
+    width: 30%;
     border: none;
     cursor: pointer;
     transition: 0.3s ease;
@@ -54,4 +64,32 @@
 }
 .hire-button:active {
     opacity: 0.9;
+}
+@media (min-width:1025px) and (max-width: 1440px) {
+    .Avail {
+        font-size: 25px;
+        width: 70%;
+    }
+    .tell-me {
+        font-size: 25px;
+        width: 70%;
+        color:#ffeead;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+    .Avail {
+        font-size: 25px;
+        width: 80%;
+    }
+    .tell-me {
+        font-size: 25px;
+        width: 85%;
+        color:#ffeead;
+    }
+    .hire-button{
+        font-size:25px;
+        padding: 30px;
+        width: 40%;
+    }
 }
